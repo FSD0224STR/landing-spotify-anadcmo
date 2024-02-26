@@ -61,6 +61,11 @@
     flex-direction: column;
 }
 
+.rowflex{    
+    display: flex;
+    flex-direction: row;
+}
+
 .card1{
     width: 100%;
     display: flex;
@@ -83,9 +88,10 @@
 
 .cardList{
     list-style: none;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     position: relative;
 }
+
 .cardList::before {
     content: "✓";
     left: -20px;
@@ -101,17 +107,81 @@
     max-width: 450px;
     box-shadow: none;
     background-color: transparent;
-}
-.cardPink{ 
-    border-color: rgb(255, 210, 215);
-    border-width: 4px 4px 0px;
+    border-width: 4px;
     position: relative;
     color: rgb(255, 255, 255);
-    border-radius: 10px 10px 0px 0px;
-    padding-top: 16px;
+    border-radius: 10px;
     display: grid;
     flex-flow: wrap;
     align-items: flex-start;
+    padding: 15px 15px 0 15px;
+}
+.cardPink{ 
+    border-color: rgb(255, 210, 215);
+}
+
+.cardPurple{
+    border-color: rgb(196 177 212) ;
+}
+
+.cardYellow{
+    border-color: rgb(255, 200, 98);
+}
+
+.cardBlue{
+    border-color:rgb(165, 187, 209);
+}
+
+
+.flex1 {
+    flex:1;
+}
+
+.flex2 {
+    flex:2;
+}
+
+.cardTitle {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 5px;
+}
+
+
+
+.colorText{
+    color: black;
+    border-width: 4px;
+    position: relative;
+    border-radius: 4px ;
+    padding: 8px 16px;
+    display: grid;
+    flex-flow: wrap;
+    align-items: flex-start;
+    font-weight: bold;
+    width: fit-content;
+    background: rgb(255, 210, 215);
+    
+}
+
+.btnCard{
+    width: -webkit-fill-available;
+}
+.backPink{
+    background: rgb(255, 210, 215) !important;
+}
+
+.backPurple{
+    background: rgb(196 177 212) !important;
+}
+
+.backYellow{
+    background: rgb(255, 200, 98) !important;
+}
+
+.backBlue{
+    background:rgb(165, 187, 209)!important;
 }
 
 

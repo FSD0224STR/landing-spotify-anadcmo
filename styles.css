@@ -24,12 +24,12 @@ li.navBar:hover{
 }
 
 
-ul {
+ul.ulnavBar {  
     list-style-type: none;
     margin: 0;
     padding: 10px;
     display: flex;
-  }
+}
 
 li {
     padding: 0 10px;
