@@ -115,21 +115,61 @@
     flex-flow: wrap;
     align-items: flex-start;
     padding: 15px 15px 0 15px;
+    margin-bottom: 40px;
 }
 .cardPink{ 
     border-color: rgb(255, 210, 215);
+    width: 31%;
 }
 
 .cardPurple{
     border-color: rgb(196 177 212) ;
+    width: 31%;
 }
 
 .cardYellow{
     border-color: rgb(255, 200, 98);
+    width: 31%;
 }
 
 .cardBlue{
     border-color:rgb(165, 187, 209);
+    width: 31%;
+}
+
+.cards3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.align-center{
+    display: flex;
+    justify-content: center;
+}
+
+/* .cabecera{
+    flex:1;
+}
+
+.cuerpo{
+    flex:2;
+}
+
+.pie{
+    flex:1;
+} */
+
+.display-contents{
+    display: contents;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.text-right{
+    text-align:right;
 }
 
 
@@ -189,4 +229,18 @@
     .card1{ 
         max-width: 450px;
     }
+
+    .cardPink, .cardPurple, .cardYellow, .cardBlue{ 
+        width: 450px;
+    }
+
+
+    .cards3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }

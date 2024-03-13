@@ -84,6 +84,11 @@ a {
 .small{
     font-size: 11px;
 }
+.precio{
+    font-size: x-large;
+    margin: 4px 0 0 0;
+}
+
 
 @media (max-width: 1180px) {
     .image1 {
